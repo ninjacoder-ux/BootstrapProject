@@ -1,8 +1,22 @@
 ﻿body {
     font-family: 'Open Sans', sans-serif;
+    padding-top: 90px;
 }
 
-header, footer {
+.navbarShrink{
+    opacity: 0.9 !important;
+    -webkit-transition: all 0.5s !important;
+    transition: all 0.5s !important; 
+}
+
+.shrink{
+    padding-bottom: 0 !important;
+    padding-top: 0 !important;
+    -webkit-transition: all 0.5s !important;
+    transition: all 0.5s !important;
+}
+
+footer {
     background-color: #333;
     color: #ddd;
     padding: 20px;
@@ -36,7 +50,8 @@ aside {
 
 .sports-icon-list {
     background-color: #1f5937;
-    padding-bottom: 40px;
+    padding-bottom: 10px;
+    padding-top:20px
 }
 .sports-icon-list a {
     color: white;
