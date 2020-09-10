@@ -1,6 +1,6 @@
 ﻿html, body{
     height: 100%;
-    overflow-x: hidden !important;
+    /* overflow-x: hidden !important; */
 }
 
 body {
@@ -138,10 +138,10 @@ article p {
 /* video css starts */
 
 /* Default to hide the video on all devices */
-#video{display:none}
+#video{display:none; overflow-x: hidden !important;}
 
 /* Default to display the image on all devices */
-#videosubstitute{display:block;width:auto;height:100%;}
+#videosubstitute{display:block;width:auto;height:100%;overflow-x: hidden !important;}
 
 /* html, body {
     height: 100%;
@@ -158,6 +158,7 @@ article p {
     margin: 0!important;
     background-color: gray;
     position: relative;
+    overflow: hidden !important;
 }
 #video{    
     width: 100vw; 
@@ -188,8 +189,8 @@ article p {
 }
 /*if there is 992  pixels or more, then display the video but hide the image*/
 @media only screen and (min-width : 992px) {
-#video{display:block;}
-#videosubstitute{display:none}
+#video{display:block;overflow-x: hidden !important;}
+#videosubstitute{display:none;overflow-x: hidden !important;}
 }   
 
 /* The container for our text and stuff */
@@ -200,6 +201,7 @@ article p {
     justify-content: center;
     width: 100%;
     height:100%;
+    overflow-x: hidden !important;
 }
  
 /*video css ends*/
